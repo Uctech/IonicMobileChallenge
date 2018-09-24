@@ -1,3 +1,38 @@
 page-home {
+  .row{
+    margin: auto;
+  }
+  ion-col {
+    margin: 1px;
+  }
 
+  ion-col {
+    margin: 1px;
+  }
+
+  .black, .blue, .green, .cyan, .magenta, .red, .yellow{
+    width: 12vw;
+    height: 12vw;
+  }
+  .black {
+    background-color: black;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .green {
+    background-color: green;
+  }
+  .cyan {
+    background-color: cyan;
+  }
+  .magenta {
+    background-color: magenta;
+  }
+  .red {
+    background-color: red;
+  }
+  .yellow {
+    background-color: yellow;
+  }
 }
