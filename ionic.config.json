@@ -1,6 +1,6 @@
 {
   "name": "IonicMobileChallenge",
-  "app_id": "",
+  "app_id": "737cf08d",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
