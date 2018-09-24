@@ -7,5 +7,10 @@
 </ion-header>
 
 <ion-content padding>
-
+  <ion-grid>
+    <ion-row *ngFor="let r of colors; let i = index">
+      <ion-col (click)="square(i,j)" id="{{i+''+j}}" class="{{grid[i][j]}}" *ngFor=" let c of colors; let j = index">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
